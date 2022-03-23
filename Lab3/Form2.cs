@@ -25,6 +25,9 @@ namespace Lab3
 
         private void Form2_Load(object sender, EventArgs e)
         {
+
+          
+
             //this.listView1.Items.Clear();
             this.treeView1.Nodes.Clear();
             TreeNode root = new TreeNode("Classes", 1, 2);
@@ -160,6 +163,16 @@ namespace Lab3
                 progressBar1.Value = 0;
                 timer2.Enabled = false;
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You clicked me");
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -35,7 +35,18 @@ namespace Lab3
             li.SubItems.Add(textBox3.Text);
             li.SubItems.Add(textBox4.Text);
             classForm.listView1.Items.Add(li);
-            this.Close();
+            //this.Close();
+
+            cleartext();
+        }
+
+        private void cleartext()
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+
         }
     }
 }
